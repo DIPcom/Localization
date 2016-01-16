@@ -1,10 +1,30 @@
 #UserManager
 
 ```sh
-$ composer require dipcom/user-manager:@dev
+$ composer require dipcom/localization:@dev
 ```
 
 ```yaml  
+localization:
+        local_dir: %appDir%\Localization
+        default_lang: cs
+
 extensions:
-	userManager: DIPcom\UserManager\DI\UserManagerExtension
+	localization: DIPcom\Localization\DI\LocalizationExtension
+```
+
+Language file template
+----------------------
+
+cz.nenon
+
+```yaml  
+config: 
+    name: 'Čeština'
+    date: 'd.m.Y'
+
+errors: 
+    img: 'Nahraný soubor musí být obrázek ve formátu JPG, GIF nebo PNG'
+local:
+    name: 'Jméno'
 ```
