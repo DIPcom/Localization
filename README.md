@@ -16,7 +16,7 @@ extensions:
 Language file template
 ----------------------
 
-cz.nenon
+cs.nenon
 
 ```yaml  
 config: 
