@@ -20,7 +20,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"dipcom\\localization\\": "src/"
+			"DIPcom\\Localization\\": "src/"
 		}
 	},
 	"extra": {
